@@ -43,63 +43,63 @@ export const showLangText=ref(true);
 export const boxCom=ref([
     {
         id:1,
-        img:"/src/assets/img/com1.jpg",
+        img:"/src/assets/img/com12.jpg",
         date:"19/July/2024",
         room:"R18",
         type:"Haunted Universities 3"
     },
     {
         id:2,
-        img:"/src/assets/img/com2.jpg",
+        img:"/src/assets/img/com13.jpg",
         date:"19/July/2024",
         room:"NC15",
         type:"Sengkolo:Malam Satu Suro"
     },
     {
         id:3,
-        img:"/src/assets/img/com3.jpg",
+        img:"/src/assets/img/com14.jpg",
         date:"22/July/2024",
         room:"NC15",
         type:"Siksa Kubur"
     },
     {
         id:4,
-        img:"/src/assets/img/com4.jpg",
+        img:"/src/assets/img/com15.jpg",
         date:"23/July/2024",
         room:"NC15",
         type:"Handsome Guys"
     },
     {
         id:5,
-        img:"/src/assets/img/com5.jpg",
+        img:"/src/assets/img/com16.jpg",
         date:"25/July/2024",
         room:"TBC",
         type:"Deadpool&Wolverine"
     },
     {
         id:6,
-        img:"/src/assets/img/com6.jpg",
+        img:"/src/assets/img/com17.jpg",
         date:"25/July/2024",
         room:"NC15",
         type:"Preay Taong Thneom"
     },
     {
         id:7,
-        img:"/src/assets/img/com7.jpg",
+        img:"/src/assets/img/com18.jpg",
         date:"26/July/2024",
         room:"NC15",
         type:"Do You See What I See"
     },
     {
         id:8,
-        img:"/src/assets/img/com8.jpg",
+        img:"/src/assets/img/com19.jpg",
         date:"26/July/2024",
         room:"TBC",
         type:"Bocchi The Rock!Recap Part 1"
     },
     {
         id:9,
-        img:"/src/assets/img/com9.jpg",
+        img:"/src/assets/img/com20.jpg",
         date:"30/July/2024",
         room:"TBC",
         type:"Crisis Negotiators"
