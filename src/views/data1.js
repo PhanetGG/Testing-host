@@ -1,0 +1,905 @@
+import { ref } from "vue";
+export const linkVideo=ref([
+       {
+            id:1,
+            link:"https://www.youtube.com/embed/ZPqU8L0TeFc?si=Pkgf9lrV1p9WE9bt"
+       },
+       {
+            id:2,
+            link:"https://www.youtube.com/embed/pYtpAyMZpBo?si=xXVwCW_CNifR2U-k"
+       },
+       {
+            id:3,
+            link:"https://www.youtube.com/embed/SYfN1n515yo?si=J2Jz_97YCubAyMgS"
+       },
+       {
+            id:4,
+            link:"https://www.youtube.com/embed/pYtpAyMZpBo?si=xXVwCW_CNifR2U-k"
+       },
+       {
+            id:5,
+            link:"https://www.youtube.com/embed/giKrRgyQGQc?si=0tCmlOJg6cqOy66s"
+       },
+       {
+            id:6,
+            link:"https://www.youtube.com/embed/TKZ_NTGbs5s?si=HV3KgglpmE15M5FQ"
+       },
+       {
+            id:7,
+            link:"https://www.youtube.com/embed/BjKdozTCtaI?si=FTmuRwOAZluf3lVH"
+       },
+       {
+            id:8,
+            link:"https://www.youtube.com/embed/hiBOKhOVBXE?si=-ZgGj7ah9ROqmhuX"
+       },
+       {
+            id:9,
+            link:"https://www.youtube.com/embed/LtNYaH61dXY?si=GKI4wEJe22K7P9NH"
+       },
+       {
+            id:10,
+            link:"https://www.youtube.com/embed/M4lPPb7XIvo?si=RruSuBkTACJ8w2dV"
+       },
+       {
+            id:11,
+            link:"https://www.youtube.com/embed/rQq6PqwL7Z0?si=8TH6tnIugoZ35eFX"
+       },
+       {
+            id:12,
+            link:"https://www.youtube.com/embed/B1ftq2NRXN0?si=2IFLExB17UReqQLJ"
+       },
+       {
+            id:13,
+            link:"https://www.youtube.com/embed/mOLjxRPVwXg?si=12aD7H6CLtyo9ffn"
+       },
+       {
+            id:14,
+            link:"https://www.youtube.com/embed/EkmEdCl1Bgw?si=mdD7zkEXTQipxnpo"
+       }
+]);
+export const linkMape=ref([
+       {
+            id:1,
+            link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.3612444319606!2d104.92168627428148!3d11.525923244923803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095106e933fc61%3A0xfc349b84af49877e!2sLegend%20By%20Ize!5e0!3m2!1sen!2skh!4v1722934259595!5m2!1sen!2skh",
+            number:7,
+            opening:"9:30-22:30",
+            Address:"St271, Phum Prek Ta Nu, Sangkat Chak Angrae Leu, Khan Mean Chey"
+       },
+       {
+          id:2,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1003924.3317443755!2d102.29661941528327!3d10.612018902571819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107e1568edfc0b5%3A0xd84bb2bee6e666ed!2sLegend%20Cinemas!5e0!3m2!1sen!2skh!4v1722934528730!5m2!1sen!2skh",
+          number:4,
+          opening:"9:30-22:30",
+          Address:"PGB-5-021, 4th Floor of Prince ,Sihanoukville"
+       },
+       {
+          id:3,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000612.5631771713!2d103.69179137812499!3d11.577442700000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951112babc0ed%3A0xb7447976554e6215!2sLegend%20Cinemas%2C%20Eden%20Garden!5e0!3m2!1sen!2skh!4v1722934665238!5m2!1sen!2skh",
+          number:8,
+          opening:"9:30-22:30",
+          Address:"Khan Daun Penh,"
+       }
+       ,
+       {
+          id:4,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000612.5631771713!2d103.69179137812499!3d11.577442700000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951c189b93025%3A0x42ac688c0ed2096e!2sLegend%20Cinemas%2C%20K%20Mall!5e0!3m2!1sen!2skh!4v1722934811880!5m2!1sen!2skh",
+          number:5,
+          opening:"9:30-22:30",
+          Address:"Veng Sreng Blvd"
+       },
+       {
+          id:5,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000612.5631771713!2d103.69179137812499!3d11.577442700000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310950512c71155d%3A0xd4cf2f074f0737eb!2sLegend%20Cinemas%2C%20Meanchey!5e0!3m2!1sen!2skh!4v1722934883224!5m2!1sen!2skh",
+          number:5,
+          opening:"9:30-22:30",
+          Address:"Veng Sreng Blvd , Sangkat Steung Mean Chey, Khan Mean Chey"
+       }
+       ,
+       {
+          id:6,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.98533529745!2d104.87718107481695!3d11.552908788647022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095129b09a0625%3A0xe7e87bd7ff882246!2sLegend%20Cinemas%2C%20Midtown!5e0!3m2!1sen!2skh!4v1723010852951!5m2!1sen!2skh",
+          number:6,
+          opening:"9:30-22:30",
+          Address:"St. 2004 Corner 13B"
+       },
+       {
+          id:7,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16565.989298090662!2d104.91652151982929!3d11.54805630078543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951191407ccff%3A0x51838ea6a1e3f6d0!2sLegend%20Premium%2C%20Noro%20Mall!5e0!3m2!1sen!2skh!4v1723011207379!5m2!1sen!2skh",
+          number:3,
+          opening:"9:30-22:30",
+          Address:"Preah Norodom Blvd (41)"
+       },
+       {
+          id:8,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.8676060655903!2d104.9098381748172!3d11.561347488639216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109513f41d989d3%3A0x43b46173cca6cb1!2zTGVnZW5kIENpbmVtYSBPbHltcGlhIOGemuGfhOGehOGel-GetuGeluGemeGek-GfkuGejyDhnpvhn4Hhnofhn4HhnpMg4Z6i4Z684Z6h4Z624Z-G4Z6W4Z-S4Z6Z4Z62!5e0!3m2!1sen!2skh!4v1723011319995!5m2!1sen!2skh",
+          number:7,
+          opening:"9:30-22:30",
+          Address:"Monireth Blvd(217),Sangkat Veal Vong Khan 7 Makara"
+       },
+       {
+          id:9,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6924312729975!2d104.9189595748173!3d11.573892588627508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095132b6f7ab8d%3A0xe494557214f2237f!2sLegend%20Premium%2C%20Exchange%20Square!5e0!3m2!1sen!2skh!4v1723011415015!5m2!1sen!2skh",
+          number:4,
+          opening:"9:30-22:30",
+          Address:"Sangkat Wat Phnom"
+       },
+       {
+          id:10,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.452961516296!2d104.87233747481771!3d11.591020488611626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109530f2b1a3ab9%3A0x26c7b4faec343de4!2zTGVnZW5kIENpbmVtYSBTZW4gU29rIOGemuGfhOGehOGel-GetuGeluGemeGek-GfkuGejyDhnpvhn4Hhnofhn4HhnpPigIsg4Z6f4Z-C4Z6T4Z6f4Z674Z6B!5e0!3m2!1sen!2skh!4v1723011499409!5m2!1sen!2skh",
+          number:5,
+          opening:"9:30-22:30",
+          Address:"Okhna Mong Reththey street, Khan Sen Sok"
+       },
+       {
+          id:11,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31054.425214206785!2d103.81974157431641!3d13.362512899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311017221525354d%3A0x391fa630d9a34ff0!2sLegend%20Cinemas%20Siem%20Reap!5e0!3m2!1sen!2skh!4v1723011595736!5m2!1sen!2skh",
+          number:5,
+          opening:"9:30-22:30",
+          Address:"Svay Dongkoum Commune, Krong Siem Reap"
+       },
+       {
+          id:12,
+          link:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.563880585999!2d104.89655767481753!3d11.583090188618987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109517c0bfb2795%3A0x96187fe6ac092399!2sLegend%20Cinemas%2C%20Toul%20Kork!5e0!3m2!1sen!2skh!4v1723011687397!5m2!1sen!2skh",
+          number:3,
+          opening:"9:30-22:30",
+          Address:"Sangkat Beongkok 1, Khan Toul Kork,"
+       }
+]);
+export const right=ref([
+      {
+          id:1,
+          img:"/src/assets/img/shv.jpg",
+          name:"Legend Cinema SihanoukVillage"
+      },
+      {
+          id:2,
+          img:"/src/assets/img/kmall.jpg",
+          name:"Legend K Mall"
+      },
+      {
+          id:3,
+          img:"/src/assets/img/midtown.jpg",
+          name:"Legend Midtown"
+      },
+      {
+          id:4,
+          img:"/src/assets/img/oly.jpg",
+          name:"Legend Olympia"
+      },
+      {
+          id:5,
+          img:"/src/assets/img/sensok.jpg",
+          name:"Legend SenSok"
+      },
+      {
+          id:6,
+          img:"/src/assets/img/tk.jpg",
+          name:"Legend Toul Kork"
+      }
+]);
+export const left=ref([
+      {
+          id:1,
+          img:"/src/assets/img/271.jpg",
+          name:"Legend Cinema 271 Mega Mall"
+      },
+      {
+          id:2,
+          img:"/src/assets/img/eden.jpg",
+          name:"Legend Eden Garden"
+      },
+      {
+          id:3,
+          img:"/src/assets/img/meanchey.jpg",
+          name:"Legend MeanChey"
+      },
+      {
+          id:4,
+          img:"/src/assets/img/noro.jpg",
+          name:"Legend Noro Mall"
+      },
+      {
+          id:5,
+          img:"/src/assets/img/premium.jpg",
+          name:"Legend Premium Exchange Square"
+      },
+      {
+          id:6,
+          img:"/src/assets/img/sr.jpg",
+          name:"Legend Siem Reap"
+      }
+]);
+export const boxOffer=ref([
+     {
+          id:1,
+          img:"/src/assets/img/off1.jpeg",
+          caption:"Neath's Love story's tickets are now available.",
+     },
+     {
+          id:2,
+          img:"/src/assets/img/off2.jpeg",
+          caption:"Let's enjoy the special price from Legend Toul Kork Cinema!",
+     },
+     {
+          id:3,
+          img:"/src/assets/img/off3.jpeg",
+          caption:"Come to laugh with the Handsome Guys! Tickets are available at Legend Cinema.",
+     },
+     {
+          id:4,
+          img:"/src/assets/img/off4.jpeg",
+          caption:"Deadpool & Wolverine is now playing at legend cinema.",
+     },
+     {
+          id:5,
+          img:"/src/assets/img/off5.jpeg",
+          caption:"GOLDEN PASS",
+     },
+     {
+          id:6,
+          img:"/src/assets/img/off6.jpeg",
+          caption:"Celebrate Coca-Cola Day with us!",
+     },
+     {
+          id:7,
+          img:"/src/assets/img/off7.jpeg",
+          caption:"Special price for students and senior citizen. Applicable on week days, weekends and public Holiday",
+     },
+     {
+          id:8,
+          img:"/src/assets/img/off8.jpeg",
+          caption:"Buy 1 Get 1 Ticket Free!",
+     },
+     {
+          id:9,
+          img:"/src/assets/img/off9.jpeg",
+          caption:"Enjoy weekly discounts by simply registering as a Smart VIP subscribers",
+     }
+]);
+export const boxCom=ref([
+    {
+        id:1,
+        img:"/src/assets/img/271.jpg",
+        name:"Legend Cinema 271 Mega Mall",
+        location:"3rd Floor,Chip Mong Mega Mall"
+    },
+    {
+         id:2,
+         img:"/src/assets/img/shv.jpg",
+         name:"Legend Cinema Sihanoukville",
+         location:"PGB-5-021,4th Floor Of Prince"
+    },
+    {
+         id:3,
+         img:"/src/assets/img/eden.jpg",
+         name:"Legend Eden Garden",
+         location:"City Center Boulevard,..."
+    },
+    {
+         id:4,
+         img:"/src/assets/img/kmall.jpg",
+         name:"Legend K Mall",
+         location:"2nd Floor K Mall"
+    },
+    {
+         id:5,
+         img:"/src/assets/img/meanchey.jpg",
+         name:"Legend Meanchey",
+         location:"3rd Floor of New Steung Mean Chey"
+    },
+    {
+         id:6,
+         img:"/src/assets/img/midtown.jpg",
+         name:"Legend Midtown Hall",
+         location:"1st Floor Of Midtown Hall"
+    },
+    {
+         id:7,
+         img:"/src/assets/img/noro.jpg",
+         name:"Legend Noro Mall",
+         location:"5th Floor,Chip Mong Noro Mall"
+    },
+    {
+         id:8,
+         img:"/src/assets/img/oly.jpg",
+         name:"Legend Olympia",
+         location:"6th Floor,The Olympia Mall"
+    },
+    {
+         id:9,
+         img:"/src/assets/img/premium.jpg",
+         name:"Legend Premuim Exchange Square",
+         location:"Street 106,Corner Of Street 61"
+    },
+    {
+         id:10,
+         img:"/src/assets/img/sensok.jpg",
+         name:"Legend SenSok",
+         location:"4th Floor,Chip Mong SenSok Mall"
+    },
+    {
+         id:11,
+         img:"/src/assets/img/sr.jpg",
+         name:"Legend Siem Reap",
+         location:"Level 3,Heritage Walk,Corner..."
+    },
+    {
+         id:12,
+         img:"/src/assets/img/tk.jpg",
+         name:"Legend Toul Kork",
+         location:"TK Avenue Mall,Street 315"
+    }
+]);
+export const seatB=ref([
+       {
+           row:"B",
+           num:1,
+           price:4.5,
+           select:false
+       },
+       {
+          row:"B",
+          num:2,
+          price:4.5,
+          select:false
+      },
+      {
+          row:"B",
+          num:3,
+          price:4.5,
+          select:false
+      },
+      {
+          row:"B",
+          num:4,
+          price:4.5,
+          select:false
+      },
+      {
+         row:"B",
+         num:5,
+         price:4.5,
+         select:false
+     },
+     {
+         row:"B",
+         num:6,
+         price:4.5,
+         select:false
+     },
+     {
+         row:"B",
+         num:7,
+         price:4.5,
+         select:false
+     },
+     {
+        row:"B",
+        num:8,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"B",
+        num:9,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"B",
+        num:10,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"B",
+        num:11,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"B",
+        num:12,
+        price:4.5,
+        select:false
+    },
+    {
+       row:"B",
+       num:13,
+       price:4.5,
+       select:false
+   },
+   {
+       row:"B",
+       num:14,
+       price:4.5,
+       select:false
+   },
+   {
+       row:"B",
+       num:15,
+       price:4.5,
+       select:false
+   }
+]);
+export const seatC=ref([
+     {
+         row:"C",
+         num:1,
+         price:4.5,
+         select:false
+     },
+     {
+        row:"C",
+        num:2,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"C",
+        num:3,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"C",
+        num:4,
+        price:4.5,
+        select:false
+    },
+    {
+       row:"C",
+       num:5,
+       price:4.5,
+       select:false
+   },
+   {
+       row:"C",
+       num:6,
+       price:4.5,
+       select:false
+   },
+   {
+       row:"C",
+       num:7,
+       price:4.5,
+       select:false
+   },
+   {
+      row:"C",
+      num:8,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"C",
+      num:9,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"C",
+      num:10,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"C",
+      num:11,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"C",
+      num:12,
+      price:4.5,
+      select:false
+  },
+  {
+     row:"C",
+     num:13,
+     price:4.5,
+     select:false
+ },
+ {
+     row:"C",
+     num:14,
+     price:4.5,
+     select:false
+ },
+ {
+     row:"C",
+     num:15,
+     price:4.5,
+     select:false
+ }
+]);
+export const seatD=ref([
+     {
+         row:"D",
+         num:1,
+         price:4.5,
+         select:false
+     },
+     {
+        row:"D",
+        num:2,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"D",
+        num:3,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"D",
+        num:4,
+        price:4.5,
+        select:false
+    },
+    {
+       row:"D",
+       num:5,
+       price:4.5,
+       select:false
+   },
+   {
+       row:"D",
+       num:6,
+       price:4.5,
+       select:false
+   },
+   {
+       row:"D",
+       num:7,
+       price:4.5,
+       select:false
+   },
+   {
+      row:"D",
+      num:8,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"D",
+      num:9,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"D",
+      num:10,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"D",
+      num:11,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"D",
+      num:12,
+      price:4.5,
+      select:false
+  },
+  {
+     row:"D",
+     num:13,
+     price:4.5,
+     select:false
+ },
+ {
+     row:"D",
+     num:14,
+     price:4.5,
+     select:false
+ },
+ {
+     row:"D",
+     num:15,
+     price:4.5,
+     select:false
+ }
+]);
+export const seatE=ref([
+   {
+       row:"E",
+       num:1,
+       price:4.5,
+       select:false
+   },
+   {
+      row:"E",
+      num:2,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"E",
+      num:3,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"E",
+      num:4,
+      price:4.5,
+      select:false
+  },
+  {
+     row:"E",
+     num:5,
+     price:4.5,
+     select:false
+ },
+ {
+     row:"E",
+     num:6,
+     price:4.5,
+     select:false
+ },
+ {
+     row:"E",
+     num:7,
+     price:4.5,
+     select:false
+ },
+ {
+    row:"E",
+    num:8,
+    price:4.5,
+    select:false
+},
+{
+    row:"E",
+    num:9,
+    price:4.5,
+    select:false
+},
+{
+    row:"E",
+    num:10,
+    price:4.5,
+    select:false
+},
+{
+    row:"E",
+    num:11,
+    price:4.5,
+    select:false
+},
+{
+    row:"E",
+    num:12,
+    price:4.5,
+    select:false
+},
+{
+   row:"E",
+   num:13,
+   price:4.5,
+   select:false
+},
+{
+   row:"E",
+   num:14,
+   price:4.5,
+   select:false
+},
+{
+   row:"E",
+   num:15,
+   price:4.5,
+   select:false
+}
+]);
+export const seatF=ref([
+     {
+         row:"F",
+         num:1,
+         price:4.5,
+         select:false
+     },
+     {
+        row:"F",
+        num:2,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"F",
+        num:3,
+        price:4.5,
+        select:false
+    },
+    {
+        row:"F",
+        num:4,
+        price:4.5,
+        select:false
+    },
+    {
+       row:"F",
+       num:5,
+       price:4.5,
+       select:false
+   },
+   {
+       row:"F",
+       num:6,
+       price:4.5,
+       select:false
+   },
+   {
+       row:"F",
+       num:7,
+       price:4.5,
+       select:false
+   },
+   {
+      row:"F",
+      num:8,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"F",
+      num:9,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"F",
+      num:10,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"F",
+      num:11,
+      price:4.5,
+      select:false
+  },
+  {
+      row:"F",
+      num:12,
+      price:4.5,
+      select:false
+  },
+  {
+     row:"F",
+     num:13,
+     price:4.5,
+     select:false
+  },
+  {
+     row:"F",
+     num:14,
+     price:4.5,
+     select:false
+  },
+  {
+     row:"F",
+     num:15,
+     price:4.5,
+     select:false
+  }
+  ]);
+ export const seatA1=ref([
+      {
+         row:"A",
+         num:1,
+         price:5,
+         select:false
+      },
+      {
+        row:"A",
+        num:2,
+        price:5,
+        select:false
+      }
+  ]);
+  export const seatA2=ref([
+    {
+       row:"A",
+       num:3,
+       price:5,
+       select:false
+    },
+    {
+      row:"A",
+      num:4,
+      price:5,
+      select:false
+    }
+  ]);
+  export const seatA3=ref([
+    {
+       row:"A",
+       num:5,
+       price:5,
+       select:false
+    },
+    {
+      row:"A",
+      num:6,
+      price:5,
+      select:false
+    }
+   ]);
+   export const seatA4=ref([
+    {
+       row:"A",
+       num:7,
+       price:5,
+       select:false
+    },
+    {
+      row:"A",
+      num:8,
+      price:5,
+      select:false
+    }
+  ]);
+  export const seatA5=ref([
+    {
+       row:"A",
+       num:9,
+       price:5,
+       select:false
+    },
+    {
+      row:"A",
+      num:10,
+      price:5,
+      select:false
+    }
+  ]);
+  export const seatA6=ref([
+    {
+       row:"A",
+       num:11,
+       price:5,
+       select:false
+    },
+    {
+      row:"A",
+      num:12,
+      price:5,
+      select:false
+    }
+]);
+export const selectSeats=ref([]);
+export const imgCombo=ref([
+     {
+         id:1,
+         name:"IZE Combo1",
+         img:"/src/assets/img/combo1.jpg",
+         price:5
+     },
+     {
+         id:2,
+         name:"IZE Combo2",
+         img:"/src/assets/img/combo2.jpg",
+         price:4.5
+     },
+     {
+         id:3,
+         name:"IZE Combo3",
+         img:"/src/assets/img/combo3.jpg",
+         price:4.8
+     },
+     {
+         id:4,
+         name:"IZE Combo4",
+         img:"/src/assets/img/combo4.jpg",
+         price:5.5
+     }
+]);
+export const totalPriceAndFB=ref(0);
+export const nameClick=ref([]);
